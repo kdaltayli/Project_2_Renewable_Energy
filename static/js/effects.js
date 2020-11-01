@@ -1,9 +1,11 @@
 
-dbpath = "http://127.0.0.1:5000/airpollution"
+// dbpath = "http://127.0.0.1:5000/airpollution"
+dbpath= "https://renewable-energy-project.herokuapp.com/airpollution"
+// gdpdata_path = "http://127.0.0.1:5000/countrygdpdata"
+gdpdata_path= "https://renewable-energy-project.herokuapp.com/countrygdpdata"
 
-gdpdata_path = "http://127.0.0.1:5000/countrygdpdata"
-
-energy_data_path = "http://127.0.0.1:5000/energysource"
+// energy_data_path = "http://127.0.0.1:5000/energysource"
+energy_data_path = "https://renewable-energy-project.herokuapp.com/energysource"
 
 // var country_list_1 = []
 // var country_list_2 = []

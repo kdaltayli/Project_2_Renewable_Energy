@@ -1,6 +1,6 @@
 // var dbpath = "../static/data/energymerged.json"
 dbpath = "http://127.0.0.1:5000/energymerged"
-
+dbpath ="https://renewable-energy-project.herokuapp.com/energymerged"
 
 d3.json(dbpath).then(function (dataSample) {
     console.log(dataSample);

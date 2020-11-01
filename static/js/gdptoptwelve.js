@@ -1,6 +1,6 @@
 // var dbpath = "../static/data/gdptoptwelve.json"
-
-var dbpath = "http://127.0.0.1:5000/gdptoptwelve"
+dbpath = "https://renewable-energy-project.herokuapp.com/gdptoptwelve"
+// var dbpath = "http://127.0.0.1:5000/gdptoptwelve"
 
 d3.json(dbpath).then(function (data) {
     console.log(data);
